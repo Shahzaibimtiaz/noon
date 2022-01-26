@@ -1,0 +1,343 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+
+
+/* Header CSS Start */
+
+.header{
+  background-color: #feee00;
+  width: 100%;
+  height: 65px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+}
+
+.logo {
+  cursor: pointer;
+  margin: 11px 0px 0px 15px;
+}
+
+.ae_header {
+  margin-left: 10px;
+  display: flex;
+  cursor: pointer;
+}
+
+.flag_header{
+  padding: 22px 0px 0px 10px;
+}
+
+.deliver_ae {
+  display: flex;
+  margin-left: 5px;
+  color: #404553;
+  margin: 13px 0px 0px 8px;
+}
+
+.downArrow_ae img{
+  width: 12px;
+  height: 12px;
+  margin-left: 20px;
+}
+
+.dubai_ae{
+  margin-top: 33px;
+  margin-left: -92px;
+  font-weight: bold;
+}
+
+.search_header {
+  width: 800px;
+  margin-left: 30px;
+  margin-top: 15px;
+}
+
+.search_header input {
+  width: 770px;
+  height: 36px;
+  padding:10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+}
+
+.arabic_header {
+  display: flex;
+  margin-top: 25px;
+  cursor: pointer;
+}
+
+.arabic_header span {
+  margin-left: 10px;
+  border-left: 1px solid rgba(64, 69, 83, 0.2);
+  height: 20px;
+}
+
+.signin_header {
+  display: flex;
+  margin-top: 25px;
+  margin-left: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.signin_header img {
+  margin-top: 1px;
+  margin-left: 10px;
+  height: 15px;
+}
+
+.signin_header span {
+  margin-left: 15px;
+  border-left: 1px solid rgba(64, 69, 83, 0.2);
+  height: 20px;
+}
+
+.cart_header {
+  display: flex;
+  margin-top: 25px;
+  margin-left: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.cart_header img {
+  margin-top: 1px;
+  margin-left: 10px;
+  height: 15px;
+}
+
+/* Header CSS End */
+
+
+
+
+/* Navbar CSS Start */
+
+.navbar {
+  width: 100%;
+  height: 45px;
+  background-color: #fcfbf4;
+  margin-top: 66px;
+}
+
+.navbar_text {
+  display: flex;
+  padding-top: 12px;
+  padding-left: 25px;
+}
+
+.categories_nav {
+  display: flex;
+}
+
+.categories_nav img {
+  width: 18px;
+  height: 18px;
+  margin-left: 48px;
+}
+
+.categories_nav span {
+  border-left: 1px solid rgba(64, 69, 83, 0.2);
+  height: 45px;
+  margin-top: -12px;
+  margin-left: 15px;
+}
+
+.categories_nav a{
+  text-decoration: none;
+  font-weight: bold;
+  color: blue;
+}
+
+.navbarul_text{
+  margin-left: 0px;
+}
+
+.navbarul_text ul{
+  display: flex;
+  list-style-type: none;
+}
+
+.navbarul_text a{
+  text-decoration: none;
+  padding: 0 13px;
+  font-weight: bold;
+  color: black;
+}
+
+/* Navbar CSS End */
+
+
+
+/* Offer CSS Start */
+
+.gif img{
+  width: 100%;
+}
+
+/* Offer CSS End */
+
+
+
+
+
+/* Slider CSS Start */
+
+.slider {
+  display: flex;
+}
+
+.slider_img img {
+  width: 944px;
+  margin-top: -3px;
+}
+
+.sale {
+  display: flex;
+}
+
+.sale img {
+  width: 202px;
+  margin-top: -3px;
+  height: 200px;
+}
+
+/* Slider CSS End */
+
+
+
+
+
+/* Slide CSS Start */
+
+.slide_img img {
+  width: 92px;
+  margin-left: 11px;
+  margin-top: 15px;
+}
+
+/* Slide CSS End */
+
+
+
+
+/* Recommended CSS Start */
+
+.rec_heading p {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-left: 15px;
+}
+
+.products {
+  display: flex;
+  padding: 15px;
+}
+
+.recproduct_1 {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.cashback {
+  margin-top: 5px;
+  position: absolute;
+  width: 200px;
+  height: 20px;
+  border: 1px solid rgb(56, 102, 223);
+}
+
+.cashback p {
+  font-size: 11px;
+  text-align: center;
+  padding: 3px;
+  color: rgb(56, 102, 223);
+  
+}
+
+.recproduct_1img {
+  width: 190px;
+  height: 260px;
+}
+
+.recproduct_1head {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.recproduct_1price {
+  margin-left: 20px;
+  margin-top: 12px;
+  font-size: 17px;
+}
+
+.recproduct_1price b {
+  font-size: 17px;
+}
+
+.recproduct_1dic {
+  text-decoration: line-through;
+  margin-left: 20px;
+  margin-top: 5px;
+  font-size: 11px;
+  color: gray;
+}
+
+.recproduct_1detail {
+  margin-left: 20px;
+  margin-top: 12px;
+}
+
+.recproduct_1date {
+  margin-left: 20px;
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+.express img {
+  float: left;
+}
+
+.ex_img {
+  margin-left: 20px;
+  margin-top: 18px;
+  width: 60px;
+}
+
+.star img{
+  width: 15px;
+  margin-top: 15px;
+  margin-left: 35px;
+}
+
+.star p{
+  padding-top: 15px;
+  padding-left: 135px;
+  color: #c58d00;
+}
+
+.star p span{
+  padding-top: 15px;
+  color: gray;
+}
+
+.banner {
+  margin-top: 50px;
+}
+
+.banner img {
+  width: 1300px;
+  padding-left: 50px; 
+}
+
+/* Recommended CSS End */
