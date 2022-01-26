@@ -3,13 +3,13 @@ import React from 'react';
 const Header = () => {
   return <div className="header">
     
-            <div className='logo'><img src='/images/logo.png' /></div>
+            <div className='logo'><img src='/noon/images/logo.png' alt='img' /></div>
             
             <div className='ae_header'>
-              <div className='flag_header'><img src='/images/ae.png'/></div>
+              <div className='flag_header'><img src='/noon/images/ae.png' alt='img'/></div>
                 <div className='deliver_ae'>
                   <p>Deliver to</p>
-                  <span className='downArrow_ae'><img src='/images/downarrow.png'/></span>
+                  <span className='downArrow_ae'><img src='/noon/images/downarrow.png' alt='img'/></span>
                 </div>
                 <div>
                   <p className='dubai_ae'>Dubai</p>
@@ -27,13 +27,13 @@ const Header = () => {
 
             <div className='signin_header'>
               <p>Sign In</p>
-              <img src='/images/signin.png' />
+              <img src='/noon/images/signin.png' />
               <span></span>
             </div>
 
             <div className='cart_header'>
               <p>Cart</p>
-              <img src='/images/cart.png' />
+              <img src='/noon/images/cart.png' />
             </div>
 
          </div>
